@@ -42,5 +42,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Attovia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/attovia_stock/
+Attovia Therapeutics (Nasdaq: ATTO) is a clinical-stage biopharmaceutical company in San Carlos,
+California, founded in 2022, developing next-generation precision biologics for immune-mediated
+diseases. Its ATTOBODY platform is a modular protein design technology built on biparatopic nanobody
+scaffolds, used to engineer multispecific biologics that inhibit two, three, or four disease-driving
+pathways from a single molecule. Lead program ATTO-1310 (anti-IL-31) is in Phase 1 for chronic
+pruritus and high-itch atopic dermatitis.
+
+**Attovia publishes no public API.** This was verified, not assumed — the full discovery pass on
+2026-08-06 found no OpenAPI, no `/.well-known/` documents, no agent card, no llms.txt, no packages in
+any public registry, and no `api.`/`developers.`/`docs.` subdomain in DNS. See `x-coverage` in
+`apis.yml` for the evidence. The company is recorded as `state: none` — an honest zero, not a gap.
+
+- https://www.attovia.com/
+- https://forgeglobal.com/attovia_stock/ (secondary-market listing that surfaced this company)

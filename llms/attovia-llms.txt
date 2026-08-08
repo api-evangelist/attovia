@@ -1,0 +1,49 @@
+# Attovia Therapeutics
+
+> Attovia Therapeutics (Nasdaq: ATTO) is a clinical-stage biopharmaceutical company in San Carlos, California, founded in 2022, developing next-generation precision biologics for immune-mediated diseases. Its proprietary ATTOBODY platform is a modular protein design technology built on biparatopic nanobody scaffolds, used to engineer multispecific biologics that inhibit two, three, or four disease-driving pathways from a single molecule. Attovia publishes no public API, developer portal, SDK, webhook surface, or machine-readable specification — the product is therapeutics, not software. This profile exists so an agent asking "does Attovia have an API?" gets an evidenced no rather than a guess.
+
+## Company
+
+- [Attovia Therapeutics](https://www.attovia.com/): Corporate site — platform, pipeline, team, news.
+- [Pipeline](https://www.attovia.com/pipeline/): Clinical and discovery programs by target, indication, and stage.
+- [Our Team](https://www.attovia.com/our-team/): Leadership and co-founders.
+- [Careers](https://www.attovia.com/careers/): Open roles.
+- [Contact](https://www.attovia.com/contact-us/): Company contact form.
+- [Investors](https://investors.attovia.com/): Investor relations (third-party hosted).
+- [Attovia on Forge Global](https://forgeglobal.com/attovia_stock/): Pre-IPO secondary-market listing that surfaced this company into the API Evangelist harvest backlog.
+
+## Programs
+
+- ATTO-1310 — anti-IL-31, Phase 1, chronic pruritus and high-itch atopic dermatitis.
+- ATTO-2306 — IL-31 x IL-13 bispecific, IND-enabling, inflammatory skin disease (AD, CSU, PN).
+- ATTO-1091 — TL1A x IL-23p19 x integrin alpha-4-beta-7 trispecific, IND-enabling, inflammatory bowel disease (UC, CD).
+- ATTO-006 / ATTO-007 / ATTO-008 — discovery stage, rheumatology, IBD, and respiratory disease.
+
+## Legal
+
+- [Terms of Use](https://www.attovia.com/terms-of-use/)
+- [Privacy Policy](https://www.attovia.com/privacy-policy/)
+- [Cookie Notice](https://www.attovia.com/cookie-notice/)
+
+## Developer surface
+
+There is none, and this was verified rather than assumed. Probed 2026-08-06:
+
+- https://www.attovia.com/llms.txt — 404
+- https://www.attovia.com/openapi.json — 404
+- https://www.attovia.com/api-docs — 404
+- https://www.attovia.com/docs — 404
+- https://www.attovia.com/.well-known/security.txt — 404
+- https://www.attovia.com/.well-known/agent-card.json — 404
+- https://www.attovia.com/.well-known/agent.json — 404
+- https://www.attovia.com/.well-known/openid-configuration — 404
+- https://www.attovia.com/.well-known/api-catalog — 404
+- https://www.attovia.com/.well-known/ai-plugin.json — 404
+- api.attovia.com, developers.attovia.com, developer.attovia.com, docs.attovia.com — NXDOMAIN
+- npm, PyPI, crates.io, RubyGems — zero packages matching "attovia"
+- github.com/Attovia — organization exists but has 0 public repositories and no description
+
+## Artifacts in this profile
+
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/attovia/refs/heads/main/security/attovia-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for attovia.com.
+- [apis.json](https://raw.githubusercontent.com/api-evangelist/attovia/refs/heads/main/apis.yml): The APIs.json profile for this company.
