@@ -1,17 +1,36 @@
 aid: attovia
-name: Attovia
-description: 'Attovia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: Attovia Therapeutics
+description: 'Attovia Therapeutics is a clinical-stage biopharmaceutical company in San
+  Carlos, California, founded in 2022 and developing next-generation precision biologics
+  for immune-mediated diseases. Its proprietary ATTOBODY platform is a modular protein
+  design technology built on biparatopic nanobody scaffolds, used to engineer multispecific
+  biologics that inhibit two, three, or four disease-driving pathways from a single molecule
+  while targeting improved selectivity, stability, and less frequent dosing than existing
+  therapies. The lead program ATTO-1310 is an anti-IL-31 candidate in Phase 1 for chronic
+  pruritus and high-itch atopic dermatitis; ATTO-2306 (IL-31 x IL-13) and ATTO-1091 (TL1A
+  x IL-23p19 x integrin alpha-4-beta-7, for inflammatory bowel disease) are in IND-enabling
+  studies, alongside discovery-stage programs in rheumatology, IBD, and respiratory disease.
+  The company raised a $105M Series B led by Goldman Sachs Alternatives and listed on Nasdaq
+  as ATTO in August 2026, raising $289M. Attovia publishes no public API, developer portal,
+  SDK, or machine-readable specification — its product is therapeutics, not software.'
+image: https://www.attovia.com/wp-content/uploads/2023/09/Attovia-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/attovia/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Life Sciences
+- Immunology
+- Therapeutics
+- Drug Discovery
+- Clinical Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/attovia-domain-security.yml
+- type: LLMsTxt
+  url: llms/attovia-llms.txt
 - type: Website
+  url: https://www.attovia.com/
+- type: TermsOfService
+  url: https://www.attovia.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.attovia.com/privacy-policy/
+- type: Support
+  url: https://www.attovia.com/contact-us/
+- type: SecondaryMarket
   url: https://forgeglobal.com/attovia_stock/
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Attovia is a clinical-stage biopharmaceutical company whose product is multispecific
+    antibody therapeutics, not software — its entire public web presence is a ten-page
+    WordPress corporate site (platform, pipeline, team, careers, contact, legal) with no
+    developer section, and api/developers/developer/docs.attovia.com do not resolve in DNS.
+  evidence:
+    - url: https://www.attovia.com/openapi.json
+      status: 404
+    - url: https://www.attovia.com/.well-known/agent-card.json
+      status: 404
+    - url: https://www.attovia.com/llms.txt
+      status: 404
+    - url: https://www.attovia.com/page-sitemap.xml
+      status: 200
+  checked: '2026-08-06'
