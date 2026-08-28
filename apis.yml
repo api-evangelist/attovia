@@ -13,6 +13,17 @@ description: 'Attovia Therapeutics is a clinical-stage biopharmaceutical company
   The company raised a $105M Series B led by Goldman Sachs Alternatives and listed on Nasdaq
   as ATTO in August 2026, raising $289M. Attovia publishes no public API, developer portal,
   SDK, or machine-readable specification — its product is therapeutics, not software.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.attovia.com/wp-content/uploads/2023/09/Attovia-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/attovia/refs/heads/main/apis.yml
 x-type: company
